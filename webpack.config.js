@@ -10,7 +10,7 @@ export default {
     rules: [
       {
         test: /\.html/,
-        type: 'asset/source',
+        type: 'javascript/auto',
         loader: './loaders/html.js',
       },
     ],
