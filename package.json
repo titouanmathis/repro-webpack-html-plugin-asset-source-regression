@@ -1,0 +1,18 @@
+{
+  "type": "module",
+  "scripts": {
+    "build": "webpack",
+    "build-working": "npm run install-working && npm run build",
+    "build-non-working": "npm run install-non-working && npm run build",
+    "build-patched": "npm run install-patched && npm run build",
+    "install-working": "npm install --save-exact webpack@5.95.0",
+    "install-non-working": "npm install --save-exact webpack@5.96.0",
+    "install-patched": "npm run install-non-working && npx patch-package"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "5.6.3",
+    "patch-package": "8.0.0",
+    "webpack": "5.96.0",
+    "webpack-cli": "5.1.4"
+  }
+}

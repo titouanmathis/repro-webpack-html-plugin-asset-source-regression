@@ -1,0 +1,13 @@
+diff --git a/node_modules/webpack/lib/asset/AssetSourceGenerator.js b/node_modules/webpack/lib/asset/AssetSourceGenerator.js
+index c6f2633..1ef8e1f 100644
+--- a/node_modules/webpack/lib/asset/AssetSourceGenerator.js
++++ b/node_modules/webpack/lib/asset/AssetSourceGenerator.js
+@@ -123,7 +123,7 @@ class AssetSourceGenerator extends Generator {
+ 			return CSS_URL_TYPES;
+ 		}
+ 
+-		return NO_TYPES;
++		return JS_TYPES;
+ 	}
+ 
+ 	/**
