@@ -1,5 +1,7 @@
 # webpack@5.96.0 × html-webpack-plugin
 
+> ⚠️ This is a feature and not a bug (see [webpack/webpack#18949](https://github.com/webpack/webpack/discussions/18949)) and has been fixed with [162e353](https://github.com/titouanmathis/repro-webpack-html-plugin-asset-source-regression/commit/162e353).
+
 This repository is a reproduction of a regression noticed with webpack@5.96.0 and html-webpack-plugin. 
 
 The following scripts can be used to reproduce the error:
